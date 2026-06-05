@@ -3,3 +3,5 @@ due to currently shitty financial decisions and bad sleep schedule the bot isn't
 
 discuss more here
 https://discord.gg/2668NVb4Rr
+
+#### also can someone tell me why did my old readme.md is gone wtf?
