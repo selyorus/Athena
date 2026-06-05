@@ -10,9 +10,9 @@ load_dotenv(dotenv_path=script_dir / '.env')
 
 TOKEN = os.getenv("DISCORD_TOKEN")
 PREFIX = ","
-OWNER_IDS = {1282966278717444182, 1124274518748315738}
+OWNER_IDS = [int(i) for i in os.getenv("OWNER_IDS").split(",")]
 
-if not TOKEN:
+not TOKEN:
     raise ValueError("ERROR: Token Might be invalid or you didn't set up .env, idiot.")
 
 # Bot setup
